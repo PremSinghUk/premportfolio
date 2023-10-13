@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="services.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Lumanosimo&family=Orbitron:wght@500&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <main>
+    <header class="header" style="background: transparent;">
+      <h1 class="logo"><a href="#">PREM</a></h1>
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+  </main>
+
+
+  <!-- <div class="mains">
+    <h2>SERVICES</h2>
+  </div> -->
+
+
+
+
+  <!-- <div class="flexbox">
+    <div class="flexcard flexcardGreen">
+      <div class="flexcardNumber flexcardNumberGreen">01</div>
+      <div class="flex flexcardTitle">Web Development</div>
+      <div class="flex flexcardText">Web Development a variety of technologies, programming languages, and tools to
+        create functional and visually appealing websites. Here's some essential information about web development
+      </div>
+      <div class="flex flexcardImg"><img class="flexcardimgItem"
+          src="https://pluspng.com/img-png/coder-png-source-code-icon-1600.png" alt=""></div>
+    </div>
+    <div class="flexcard flexcardBlue">
+      <div class="flexcardNumber flexcardNumberBlue">02</div>
+      <div class="flex flexcardTitle">Graphic Designer</div>
+      <div class="flex flexcardText">Graphic designers create visual content using software like Adobe Photoshop and
+        Illustrator, specializing in web design, branding, print materials, and digital marketing.?</div>
+      <div class="flex flexcardImg"><img class="flexcardimgItem"
+          src="https://th.bing.com/th/id/OIP.nWL0Lhp232T4Tgll6jsoOgHaIR?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt=""></div>
+    </div>
+    <div class="flexcard flexcardOrange">
+      <div class="flexcardNumber flexcardNumberOrange">03</div>
+      <div class="flex flexcardTitle">Digital Marketing</div>
+      <div class="flex flexcardText">Digital marketing leverages online channels to promote products/services. Key
+        strategies include SEO, social media, content, email, and analytics for measurable results.
+
+      </div>
+      <div class="flex flexcardImg"><img class="flexcardimgItem"
+          src="data:image/jpeg;base64,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" alt=""></div>
+    </div> -->
+
+
+
+
+
+</body>
+
+</html>
+<section class="we-offer-area text-center bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="site-heading text-center">
+          <h2>What we <span>Offer</span></h2>
+          <h4>Digital Services Provided By Me </h4>
+        </div>
+      </div>
+    </div>
+    <div class="row our-offer-items less-carousel">
+      <!-- Single Item -->
+      <div id="divv1" class="col-md-4 col-sm-6 equal-height">
+        <div class="item">
+          <i class='bx bxs-file-json'></i>
+          <h4>Project creation</h4>
+          <p>
+            Project creation encompasses goal setting, resource allocation, scheduling, and task planning. A
+            well-structured approach ensures successful execution and achievement </p>
+
+
+
+
+
+
+        </div>
+      </div>
+      <!-- End Single Item -->
+
+      <!-- Single Item -->
+      <div class="col-md-4 col-sm-6 equal-height">
+        <div class="item">
+          <i class='bx bx-code-alt'></i>
+          <h4>Web Development</h4>
+          <p>
+
+            Web development is the process of creating websites or web applications. It encompasses design and
+            maintenance to ensure functionality and user-friendliness.
+          </p>
+        </div>
+      </div>
+      <!-- End Single Item -->
+
+      <!-- Single Item -->
+      <div class="col-md-4 col-sm-6 equal-height">
+        <div class="item">
+          <i class='bx bxs-palette'></i>
+          <h4>Graphic Designer</h4>
+          <p>
+            Graphic designers create visual content using software like Adobe Photoshop and
+            Illustrator, specializing in web design, branding, print materials, and digital marketing.? </p>
+        </div>
+      </div>
+      <!-- End Single Item -->
+
+      <!-- Single Item -->
+      <div class="col-md-4 col-sm-6 equal-height">
+        <div class="item">
+          <i class='bx bx-signal-5'></i>
+          <h4>Digital Marketing</h4>
+          <p>
+            Digital marketing leverages online channels to promote products/services. Key
+            strategies include SEO, social media, content, email, and analytics for measurable results.
+          </p>
+        </div>
+      </div>
+      <!-- End Single Item -->
+
+      <!-- Single Item -->
+      <div class="col-md-4 col-sm-6 equal-height">
+        <div class="item">
+          <i class='bx bxl-graphql'></i>
+          <h4>Software Update</h4>
+          <p>
+
+            Software updates provide improvements, fix bugs, enhance security, and add features. Regularly updating your
+            software is essential for optimal performance and security.
+          </p>
+        </div>
+      </div>
+      <!-- End Single Item -->
+
+      <!-- Single Item -->
+      <div class="col-md-4 col-sm-6 equal-height">
+        <div class="item">
+          <i class='bx bxs-time'></i>
+          <h4>24/7 Support</h4>
+          <p>
+
+            Our 24/7 support guarantees round-the-clock assistance, offering quick solutions and expert advice, ensuring
+            you receive help whenever you require it. </p>
+        </div>
+      </div>
+      <!-- End Single Item -->
+    </div>
+  </div>
+</section>
